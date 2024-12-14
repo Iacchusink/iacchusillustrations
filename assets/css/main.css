@@ -2049,6 +2049,14 @@ input, select, textarea {
 			color: inherit;
 		}
 
+.header-container {
+    display: flex;
+    align-items: center; /* Vertically center the contents */
+    justify-content: flex-start; /* Left align the contents */
+    width: 100%; /* Fill the parent container */
+    height: 100%; /* Fill the height of the parent container */
+}
+
 @media {
     .avatar {
         height: auto;
