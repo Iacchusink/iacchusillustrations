@@ -2059,11 +2059,11 @@ input, select, textarea {
 
 @media {
     .avatar {
-		display: flex;
-        height: auto;
-        width: auto;
-		align-items: center;
-        max-height: 100%;
-        margin-right: 10px;
+        display: flex;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        object-fit: cover;
+        aspect-ratio: 1;
     }
 }
