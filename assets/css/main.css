@@ -246,6 +246,7 @@ input, select, textarea {
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			color: inherit;
+			text-decoration: none;
 		}
 
 	h1 {
@@ -1479,97 +1480,97 @@ input, select, textarea {
 		z-index: 10002;
 	}
 
-	body.is-preload #header {
-		-moz-transform: translateY(4em);
-		-webkit-transform: translateY(4em);
-		-ms-transform: translateY(4em);
-		transform: translateY(4em);
-	}
-
-	#header h1 {
-		color: #a0a0a1;
-		display: inline-block;
-		font-size: 1em;
-		line-height: 1;
-		margin: 0;
-		vertical-align: middle;
-	}
-
-	#header h1 a {
-		border: 0;
-		color: inherit;
-	}
-
-	#header h1 a:hover {
-		color: inherit !important;
-	}
-
-	#header nav {
-		position: absolute;
-		right: 0;
-		top: 0;
-	}
-
-	#header nav > ul {
-		list-style: none;
-		margin: 0;
-		padding: 0;
-	}
-
-		#header nav > ul > li {
-			display: inline-block;
-			padding: 0;
+		body.is-preload #header {
+			-moz-transform: translateY(4em);
+			-webkit-transform: translateY(4em);
+			-ms-transform: translateY(4em);
+			transform: translateY(4em);
 		}
 
-			#header nav > ul > li a {
-				-moz-transition: background-color 0.5s ease;
-				-webkit-transition: background-color 0.5s ease;
-				-ms-transition: background-color 0.5s ease;
-				transition: background-color 0.5s ease;
+		#header h1 {
+			color: #a0a0a1;
+			display: inline-block;
+			font-size: 1em;
+			line-height: 1;
+			margin: 0;
+			vertical-align: middle;
+		}
+
+			#header h1 a {
 				border: 0;
-				color: #ffffff;
-				display: inline-block;
-				letter-spacing: 0.1em;
-				padding: 0 1.65em;
-				text-transform: uppercase;
+				color: inherit;
 			}
 
-				#header nav > ul > li a.icon:before {
-					color: #505051;
-					float: right;
-					margin-left: 0.75em;
+				#header h1 a:hover {
+					color: inherit !important;
 				}
 
-				#header nav > ul > li a:hover {
-					color: #ffffff !important;
+		#header nav {
+			position: absolute;
+			right: 0;
+			top: 0;
+		}
+
+			#header nav > ul {
+				list-style: none;
+				margin: 0;
+				padding: 0;
+			}
+
+				#header nav > ul > li {
+					display: inline-block;
+					padding: 0;
 				}
 
-				#header nav > ul > li a.active {
-					background-color: #242629;
-				}
+					#header nav > ul > li a {
+						-moz-transition: background-color 0.5s ease;
+						-webkit-transition: background-color 0.5s ease;
+						-ms-transition: background-color 0.5s ease;
+						transition: background-color 0.5s ease;
+						border: 0;
+						color: #ffffff;
+						display: inline-block;
+						letter-spacing: 0.1em;
+						padding: 0 1.65em;
+						text-transform: uppercase;
+					}
+
+						#header nav > ul > li a.icon:before {
+							color: #505051;
+							float: right;
+							margin-left: 0.75em;
+						}
+
+						#header nav > ul > li a:hover {
+							color: #ffffff !important;
+						}
+
+						#header nav > ul > li a.active {
+							background-color: #242629;
+						}
 
 	@media screen and (max-width: 736px) {
+
 		body {
 			padding: 4em 0 0 0;
 		}
 
 		#header {
-			-moz-transform: none;
-			-webkit-transform: none;
-			-ms-transform: none;
-			transform: none;
+			-moz-transform: translateY(0);
+			-webkit-transform: translateY(0);
+			-ms-transform: translateY(0);
+			transform: translateY(0);
 			bottom: auto;
 			height: 4em;
 			padding: 0 1em;
-			position: fixed;
 			top: 0;
 		}
 
 			body.is-preload #header {
-				-moz-transform: none;
-				-webkit-transform: none;
-				-ms-transform: none;
-				transform: none;
+				-moz-transform: translateY(-3.4em);
+				-webkit-transform: translateY(-3.4em);
+				-ms-transform: translateY(-3.4em);
+				transform: translateY(-3.4em);
 			}
 
 			#header h1 {
@@ -1580,6 +1581,7 @@ input, select, textarea {
 				font-size: 0.9em;
 				padding: 0 1.15em;
 			}
+
 	}
 
 /* Main */
@@ -2046,3 +2048,33 @@ input, select, textarea {
 		#footer .copyright a {
 			color: inherit;
 		}
+
+#header .header-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+#header .avatar-wrapper {
+    flex-shrink: 0;
+    width: 32px;
+    height: 32px;
+    position: relative;
+    overflow: hidden;
+}
+
+#header .avatar-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+@media screen and (max-width: 736px) {
+    #header .avatar-wrapper {
+        width: 24px;
+        height: 24px;
+    }
+}
