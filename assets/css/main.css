@@ -2061,6 +2061,7 @@ input, select, textarea {
     .avatar {
         display: flex;
         height: 100%;
+		max-width: 40px;
         padding: 10px;
         object-fit: cover;
         aspect-ratio: 1;
