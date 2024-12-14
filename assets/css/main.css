@@ -2049,19 +2049,18 @@ input, select, textarea {
 			color: inherit;
 		}
 
-.avatar {
-    width: 40em; /* Fixed width */
-    height: 40em; /* Fixed height */
-    max-width: 100%; /* Ensure it does not exceed the container's width */
-    max-height: 100%; /* Ensure it does not exceed the container's height */
-    border-radius: 50%; /* Circular image */
-    object-fit: cover; /* Maintain aspect ratio */
-}
-
 .header-container {
     display: flex;
-    align-items: center; /* Vertically center items */
-    justify-content: flex-start; /* Align items to the start */
-    width: auto; /* Adjust width based on content */
-    height: 4em; /* Set a height for the header container */
+    align-items: center;
+    justify-content: flex-start;
+    width: auto;
+    height: 3em;
+}
+
+.avatar {
+    width: 2.5em;
+    height: 2.5em;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto 0;
 }
