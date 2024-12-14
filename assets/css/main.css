@@ -2068,51 +2068,52 @@ input, select, textarea {
 }
 
 #header .avatar {
-    width: 1.5em;
-    height: 1.5em;
+    width: 24px !important;
+    height: 24px !important;
     border-radius: 50%;
     -moz-object-fit: cover;
     -webkit-object-fit: cover;
     -ms-object-fit: cover;
     object-fit: cover;
     margin: auto 0.5em auto 0;
+    max-width: 24px !important;
+    max-height: 24px !important;
 }
 
 @media screen and (max-width: 1680px) {
     #header .avatar {
-        width: 1.4em;
-        height: 1.4em;
+        width: 22px !important;
+        height: 22px !important;
+        max-width: 22px !important;
+        max-height: 22px !important;
     }
 }
 
 @media screen and (max-width: 1280px) {
     #header .avatar {
-        width: 1.3em;
-        height: 1.3em;
+        width: 20px !important;
+        height: 20px !important;
+        max-width: 20px !important;
+        max-height: 20px !important;
     }
 }
 
 @media screen and (max-width: 980px) {
-    #header .header-container {
-        height: 4em;
-        padding: 0.5em;
-    }
-
     #header .avatar {
-        width: 1.2em;
-        height: 1.2em;
+        width: 18px !important;
+        height: 18px !important;
+        max-width: 18px !important;
+        max-height: 18px !important;
         margin: auto 0.4em auto 0;
     }
 }
 
 @media screen and (max-width: 736px) {
-    #header .header-container {
-        padding: 0.4em;
-    }
-
     #header .avatar {
-        width: 1.1em;
-        height: 1.1em;
+        width: 16px !important;
+        height: 16px !important;
+        max-width: 16px !important;
+        max-height: 16px !important;
         margin: auto 0.3em auto 0;
     }
 }
