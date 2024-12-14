@@ -2054,6 +2054,21 @@ input, select, textarea {
 	height: 100%;
 	width: fit-content;
 }
+
+.avatar-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: fit-content;
+}
+
+.avatar {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 .header-container {
     display: flex;
     align-items: center;
