@@ -2050,8 +2050,17 @@ input, select, textarea {
 		}
 
 .header-container {
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
     display: flex;
+    -moz-align-items: center;
+    -webkit-align-items: center;
+    -ms-align-items: center;
     align-items: center;
+    -moz-justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+    -ms-justify-content: flex-start;
     justify-content: flex-start;
     width: 100%;
     height: 3em;
@@ -2062,12 +2071,28 @@ input, select, textarea {
     width: 2.5em;
     height: 2.5em;
     border-radius: 50%;
+    -moz-object-fit: cover;
+    -webkit-object-fit: cover;
+    -ms-object-fit: cover;
     object-fit: cover;
     margin: auto 0.5em auto 0;
 }
 
-/* Mobile Styles */
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 1680px) {
+    .avatar {
+        width: 2.75em;
+        height: 2.75em;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .avatar {
+        width: 2.5em;
+        height: 2.5em;
+    }
+}
+
+@media screen and (max-width: 980px) {
     .header-container {
         height: 4em;
         padding: 0.75em;
@@ -2077,5 +2102,17 @@ input, select, textarea {
         width: 3em;
         height: 3em;
         margin: auto 0.75em auto 0;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .header-container {
+        padding: 0.5em;
+    }
+
+    .avatar {
+        width: 2.5em;
+        height: 2.5em;
+        margin: auto 0.5em auto 0;
     }
 }
