@@ -2048,3 +2048,9 @@ input, select, textarea {
 		#footer .copyright a {
 			color: inherit;
 		}
+
+@media (max-width: 768px) {
+    .button.discount-button {
+        margin-bottom: 20px; /* Adjust this value as needed for spacing */
+    }
+}
