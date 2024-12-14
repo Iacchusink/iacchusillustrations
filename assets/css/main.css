@@ -2048,12 +2048,6 @@ input, select, textarea {
 		#footer .copyright a {
 			color: inherit;
 		}
-.avatar-container {
-	display: flex;
-	align-items: center;
-	height: 100%;
-	width: fit-content;
-}
 
 .avatar-container {
     display: flex;
@@ -2063,8 +2057,8 @@ input, select, textarea {
 }
 
 .avatar {
-    width: 100%;
-    height: auto;
+    width: 2em;
+    height: 2em;
     border-radius: 50%;
     object-fit: cover;
 }
