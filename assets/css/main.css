@@ -2051,6 +2051,7 @@ input, select, textarea {
 
 .header-container {
     display: flex;
+	vertical-align: middle;
     align-items: center;
     justify-content: flex-start;
     width: auto;
