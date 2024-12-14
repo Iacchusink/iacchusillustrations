@@ -1093,6 +1093,7 @@ input, select, textarea {
 				display: -webkit-flex;
 				display: -ms-flex;
 				display: flex;
+				column-gap: 4em;
 			}
 
 				.panel > .inner.split > div {
@@ -2048,29 +2049,11 @@ input, select, textarea {
 			color: inherit;
 		}
 
-@media (max-width: 768px) {
-    .button.discount-button {
-        margin-bottom: 30px; /* Increased margin for spacing */
-    }
+@media {
     .avatar {
-        max-width: 50px; /* Adjust max width for smaller screens */
         height: auto;
-        width: 100%; /* Fill the width of the container */
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    .avatar {
-        max-width: 75px; /* Adjust max width for tablet screens */
-        height: auto;
-        width: 100%; /* Fill the width of the container */
-    }
-}
-
-@media (min-width: 1025px) {
-    .avatar {
-        max-width: 100px; /* Adjust max width for larger screens */
-        height: auto;
-        width: 100%; /* Fill the width of the container */
+        width: auto;
+        max-height: 100%;
+        margin-right: 10px;
     }
 }
