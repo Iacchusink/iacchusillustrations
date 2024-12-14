@@ -2051,9 +2051,12 @@ input, select, textarea {
 
 #header .header-container {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    gap: 1rem;
+    justify-content: flex-start;
+    gap: 0.5rem;
     padding: 0.5rem;
+    width: 100%;
 }
 
 #header .avatar-wrapper {
