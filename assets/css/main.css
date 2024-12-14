@@ -1179,8 +1179,6 @@ input, select, textarea {
 					transform: translateY(0);
 				}
 
-		}
-
 /* Poptrox Popup */
 
 	.poptrox-overlay {
@@ -2051,7 +2049,7 @@ input, select, textarea {
 
 @media (max-width: 768px) {
     .button.discount-button {
-        margin-bottom: 20px; /* Adjust this value as needed for spacing */
+        margin-bottom: 30px; /* Increased margin for spacing */
     }
     .avatar {
         max-width: 50px; /* Adjust max width for smaller screens */
