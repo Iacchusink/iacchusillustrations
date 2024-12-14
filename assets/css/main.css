@@ -2048,7 +2048,12 @@ input, select, textarea {
 		#footer .copyright a {
 			color: inherit;
 		}
-
+.avatar-container {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	width: fit-content;
+}
 .header-container {
     display: flex;
     align-items: center;
