@@ -2053,17 +2053,17 @@ input, select, textarea {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    width: 100%;
+    width: auto;
     height: 100%;
 }
 
 @media {
     .avatar {
-        display: flex;
-        height: 100%;
-		max-width: 40px;
+        width: auto;
+        height: auto;
+        max-width: 40px;
+        max-height: 40px;
         padding: 10px;
-        object-fit: cover;
         aspect-ratio: 1;
     }
 }
