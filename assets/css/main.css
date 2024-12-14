@@ -1457,58 +1457,26 @@ input, select, textarea {
 	}
 
 	#header {
-		-moz-transform: translateY(0);
-		-webkit-transform: translateY(0);
-		-ms-transform: translateY(0);
-		transform: translateY(0);
-		-moz-transition: -moz-transform 1s ease;
-		-webkit-transition: -webkit-transform 1s ease;
-		-ms-transition: -ms-transform 1s ease;
-		transition: transform 1s ease;
-		-moz-user-select: none;
-		-ms-user-select: none;
-		-webkit-user-select: none;
-		background: #1f2224;
-		bottom: -1em;
-		height: 5em;
-		left: 0;
-		line-height: 4em;
-		padding: 0 1.5em;
-		position: fixed;
-		user-select: none;
+		display: flex;
+		align-items: center;
 		width: 100%;
-		z-index: 10002;
+		padding: 1rem;
 	}
 
-		body.is-preload #header {
-			-moz-transform: translateY(4em);
-			-webkit-transform: translateY(4em);
-			-ms-transform: translateY(4em);
-			transform: translateY(4em);
+		#header .header-container {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: flex-start;
+			gap: 0.5rem;
+			padding: 0.5rem;
+			width: auto;
 		}
-
-		#header h1 {
-			color: #a0a0a1;
-			display: inline-block;
-			font-size: 1em;
-			line-height: 1;
-			margin: 0;
-			vertical-align: middle;
-		}
-
-			#header h1 a {
-				border: 0;
-				color: inherit;
-			}
-
-				#header h1 a:hover {
-					color: inherit !important;
-				}
 
 		#header nav {
-			position: absolute;
-			right: 0;
-			top: 0;
+			margin-left: auto;
+			display: flex;
+			align-items: center;
 		}
 
 			#header nav > ul {
