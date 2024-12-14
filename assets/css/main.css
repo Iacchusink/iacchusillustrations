@@ -2049,20 +2049,6 @@ input, select, textarea {
 			color: inherit;
 		}
 
-.avatar-container {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    width: fit-content;
-}
-
-.avatar {
-    width: 2em;
-    height: 2em;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
 .header-container {
     display: flex;
     align-items: center;
