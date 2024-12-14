@@ -2053,4 +2053,22 @@ input, select, textarea {
     .button.discount-button {
         margin-bottom: 20px; /* Adjust this value as needed for spacing */
     }
+    .avatar {
+        height: 100%; /* Fill the height of the container */
+        width: auto; /* Maintain aspect ratio */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .avatar {
+        width: 75px; /* Adjust width for tablet screens */
+        height: auto;
+    }
+}
+
+@media (min-width: 1025px) {
+    .avatar {
+        width: 100px; /* Adjust width for larger screens */
+        height: auto;
+    }
 }
