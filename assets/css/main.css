@@ -2057,7 +2057,7 @@ input, select, textarea {
 		}
 .logoContainer {
 			height: 100%;
-			width: auto;
+			width: wrap;
 			display: flex;
 			justify-content: center;
 			align-items: center;
