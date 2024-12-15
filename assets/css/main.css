@@ -2070,4 +2070,14 @@ input, select, textarea {
 			justify-content: left;
 			align-items: left;
 			gap: 2em;
+			padding-bottom: 2em;
+		}
+
+.logoTextContainer {
+			height: 100%;
+			width: wrap;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 2em;
 		}
