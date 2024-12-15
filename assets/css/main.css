@@ -2073,6 +2073,12 @@ input, select, textarea {
 			padding-bottom: 1em;
 		}
 
+		@media screen and (max-width: 736px) {
+			.logoContainer {
+				padding-bottom: 0;
+			}
+		}
+
 .logoTextContainer {
 			height: 100%;
 			width: wrap;
