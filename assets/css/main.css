@@ -1640,6 +1640,16 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			#main .thumb > .image img {
+				border: 0;
+				height: 100%;
+				left: 0;
+				position: absolute;
+				top: 0;
+				width: 100%;
+				object-fit: cover;
+			}
+
 			#main .thumb > h2 {
 				pointer-events: none;
 				bottom: 1.875em;
