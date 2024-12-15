@@ -2055,3 +2055,10 @@ input, select, textarea {
 			width: 30px;
 			border-radius: 10px;
 		}
+.logoContainer {
+			height: 100%;
+			width: auto;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
