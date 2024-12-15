@@ -2055,10 +2055,19 @@ input, select, textarea {
 			width: 30px;
 			border-radius: 10px;
 		}
-.logoContainer {
+.logoImageContainer {
 			height: 100%;
 			width: wrap;
 			display: flex;
 			justify-content: center;
 			align-items: center;
+		}
+
+.logoContainer {
+			height: 100%;
+			width: wrap;
+			display: flex;
+			justify-content: left;
+			align-items: left;
+			gap: 2em;
 		}
