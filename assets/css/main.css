@@ -2048,3 +2048,9 @@ input, select, textarea {
 		#footer .copyright a {
 			color: inherit;
 		}
+
+		.avatar {
+			height: 30px;
+			width: 30px;
+			border-radius: 10px;
+		}
