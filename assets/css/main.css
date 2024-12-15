@@ -1707,3 +1707,43 @@ input, select, textarea {
 		#footer .copyright a {
 			color: inherit;
 		}
+
+/* Custom Styles */
+.button.discount-button {
+    background-color: #ff0066;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.button.discount-button:hover {
+    background-color: #cc0052;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Override footer styles for social icons */
+#footer .icons {
+    margin-bottom: 1em;
+}
+
+#footer .icons li {
+    padding-right: 1em;
+}
+
+#footer .icons a {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.25em;
+}
+
+#footer .icons a:hover {
+    color: #fff;
+}
